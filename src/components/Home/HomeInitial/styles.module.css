@@ -1,0 +1,48 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image_wrap_card,
+.image_wrap {
+    position: relative;
+    width: 100%;
+}
+
+.image_wrap {
+    height: 50rem;
+}
+
+.image_wrap_card {
+    height: 40rem;
+}
+
+.image_wrap img,
+.image_wrap_card img {
+    border-radius: 2rem;
+}
+
+.form_newsletter {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .image_wrap {
+        display: none;
+    }
+
+    .grid_wrapper {
+        grid-template-columns: 1fr;
+    }
+}

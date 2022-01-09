@@ -1,0 +1,9 @@
+.author_card {
+    text-align: center;
+    background: var(--color-light);
+}
+
+.author_card img {
+    border-radius: 10rem;
+    object-fit: cover
+}

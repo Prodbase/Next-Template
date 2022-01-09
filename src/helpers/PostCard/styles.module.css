@@ -1,0 +1,13 @@
+.post_card {
+    cursor: pointer;
+}
+
+.post_card img {
+    object-fit: cover
+}
+
+@media (max-width: 500px) {
+    .post_card {
+        padding: 5rem 3rem !important;
+    }
+}

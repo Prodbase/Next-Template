@@ -1,0 +1,30 @@
+.banner_card {
+    position: relative;
+    width: 100%;
+    height: 70rem;
+}
+
+.banner_card img {
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.flex_carousel_wrap {
+    position: relative;
+    margin: 5rem auto;
+}
+
+.title_carousel_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    padding: 0 2rem;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+    .title_carousel_wrap {
+        width: 100%;
+    } 
+}

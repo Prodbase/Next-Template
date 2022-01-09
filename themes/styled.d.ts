@@ -1,8 +1,8 @@
-import 'styled-components'
+import '@chakra-ui/react'
 import { theme } from './primary'
 
 export type Theme = typeof theme
 
-declare module 'styled-components' {
-    export interface DefaultTheme extends Theme { }
+declare module '@chakra-ui/react' {
+  export interface DefaultTheme extends Theme {}
 }

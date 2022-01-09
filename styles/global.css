@@ -1,0 +1,52 @@
+:root {
+    --color-light: #F6F6F9
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: normal !important;
+    font-weight: none !important;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    min-height: 100vh;
+}
+body,
+input,
+button,
+textarea,
+select {
+    font-weight: 400;
+    font-size: 1.6rem !important;
+}
+img {
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+.constraint {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main_title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.text_color {
+    color: purple
+}
